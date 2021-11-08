@@ -1,6 +1,6 @@
-# Donnine Nude
+# 🔥 Donnine Nude 🔥
 
-"Donnine Nude" is a university project inspired by 10Print, the famous one-line Commodore 64 BASIC program, to create an erotic poster generator 🔥
+"Donnine Nude" is a university project inspired by 10Print, the famous one-line Commodore 64 BASIC program, to create an erotic poster generator.
 
 
 👉 [See the project on Behance]()
