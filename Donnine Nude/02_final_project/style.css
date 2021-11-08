@@ -1,0 +1,156 @@
+/* style.css */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/*div {
+  border: 0.5px solid red;
+}*/
+
+@font-face {
+  font-family: "LoRes 21 OT Serif";
+  src: url("LoRes21OTSerif-Regular.woff2") format("woff2"),
+    url("LoRes21OTSerif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 10px;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  /*background-color:black;*/
+}
+
+#inizia {
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 13%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  z-index: 1;
+  font-size: 1.2rem;
+}
+
+h1{
+  font-family: 'LoRes 21 OT Serif';
+  color: #9d1ce8;
+  font-size: 5rem;
+}
+
+#testo {
+  width: 450px;
+  margin: 0 auto;
+  font-family: "Space Grotesk", sans-serif;
+    justify-content: center;
+}
+
+#start {
+  justify-content: center;
+  font-family: "LoRes 21 OT Serif";
+   font-size: 1.8rem;
+  cursor: pointer;
+  /*text-decoration: underline;*/
+    /*border-bottom: 3px solid rgba(157,28,232);*/
+}
+#see_the_project {
+  justify-content: center;
+  font-family: "LoRes 21 OT Serif";
+  text-decoration: underline;
+  cursor: pointer;
+  color: #9d1ce8;  
+}
+
+#contenitorte{
+  margin-left: 30px;
+}
+
+#S{
+  color: #9d1ce8;
+}
+
+
+/*animazione start*/
+/*.container {
+  color:.cfd;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  margin: 200px auto;
+//   border: 1px dashed #333; 
+}*/
+
+/*.text {
+  padding: 20px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  left: 0;
+  top: calc(50% - 3px);
+  overflow: hidden;
+}
+
+.line:before, .line:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #e74315;
+  transition: transform .6s cubic-bezier(.165,.84,.44,1);
+}
+
+.line:before {
+  transform: translateX(-101%);
+  opacity: 0;
+}
+
+.line:after {
+  transform: translateX(101%);
+}
+
+.container:hover {
+  .line:before, .line:after {
+    transform: translateX(0px);
+  }
+  .line:before {
+    opacity: 1;
+  }
+  .line:after {
+    opacity: 0;
+  }
+}*/
+
+
+/*#decade{
+  margin-left:20px;
+  display: inline;
+}
+
+.submit{
+  background-color: #f9deff;
+  outline: #00adee;
+  text-decoration: none;
+  -moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+}*/
